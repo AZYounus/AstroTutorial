@@ -21,20 +21,24 @@ h1 {
 }
 
 /* nav styles */
+header {
+  white-space: nowrap;
+  font-size: 0;
+}
 
 .nav-links {
-  width: 100%;
+  width: calc(100% / 2);
   top: 5rem;
+  padding: 0px calc(2% / 2);
   left: 48px;
-  background-color: #ff9776;
   display: inline;
   margin: 0;
 }
 
 .nav-links a {
-  display: inline;
+  display: inline-block;
   text-align: center;
-  padding: 10px 0;
+  padding: 2.5px 0;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
@@ -47,12 +51,11 @@ h1 {
 }
 
 .expanded {
-  display: inline-block;
+  display: inline;
 }
 
 @media screen and (max-width: 636px) {
   .nav-links {
-    margin-left: 5em;
     display: block;
     position: static;
     width: auto;
@@ -63,5 +66,4 @@ h1 {
     display: inline-block;
     padding: 15px 20px;
   }
-
 }
