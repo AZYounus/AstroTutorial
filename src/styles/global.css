@@ -32,7 +32,7 @@ h1 {
 }
 
 .nav-links a {
-  display: block;
+  display: inline;
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
