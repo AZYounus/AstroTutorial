@@ -12,7 +12,6 @@ body {
 }
 
 * {
-  cursor: url('../components/pointing-hand-cursor-pixilart.png'), auto;
   box-sizing: border-box;
 }
 
