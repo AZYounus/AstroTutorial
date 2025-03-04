@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  cursor: url('../components/pointing-hand-cursor-pixilart.png'), auto;
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
@@ -13,6 +12,7 @@ body {
 }
 
 * {
+  cursor: url('../components/pointing-hand-cursor-pixilart.png'), auto;
   box-sizing: border-box;
 }
 
