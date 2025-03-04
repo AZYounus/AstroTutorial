@@ -12,6 +12,7 @@ body {
 }
 
 * {
+  cursor: url('../components/pointing-hand-cursor-pixilart.png'), auto;
   box-sizing: border-box;
 }
 
@@ -23,7 +24,6 @@ h1 {
 /* nav styles */
 .hamburger {
   padding-right: 20px;
-  cursor: pointer;
 }
 
 .hamburger .line {
